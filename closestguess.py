@@ -38,6 +38,16 @@ players_guess = [0 for _ in range(number_of_players)]      # this creates an arr
 
 print("\n\n")
 
+dash = '-'
+print(f"{dash*20} RULES {dash*20}")
+print(f"1. All the players i.e., {len(players)} have to guess a number generated randomly between 50 and 1000.")
+print(f"2. The only valid guesses is between 50 and 1000.")
+print(f"3. The player whose guess is closest to the number will win.")
+print("Good Luck!")
+
+
+print("\n\n")
+
 
 
 
